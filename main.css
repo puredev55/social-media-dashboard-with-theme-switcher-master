@@ -331,16 +331,18 @@ body.dark-mode{
 }
 
 @media only screen and (max-width: 480px){
-
-  .nav{
+ 
+ .nav{
     max-width: 480px;
     border-radius: 0 0 10% 10%;
-  }
-  .navbar{
-    display: block;
-    max-width: 375px;
+    
 }
-.navbar h1{
+ .navbar{
+    display: inline-block;
+    max-width: 375px;
+   margin-left:30px
+}
+ .navbar h1{
   margin: 34px 0 3px 0;
   color: var(--VeryDarkBlue);
   font-family: var(--font);
@@ -389,14 +391,19 @@ main{
 }
 
 @media only screen  and (min-width: 481px) and (max-width: 768px){
-
+  .nav{
+    max-width: 768px;
+    border-radius: 0 0 10% 10%;
+}
   .navbar{
-    display: block;
+    display: inline-block;
     max-width: 375px;
+    margin-left: 90px;
+    
 }
 hr{
   display: block;
-  max-width: 375px;
+  max-width: 400px;
 }
   .grid-top{
     display: grid;
@@ -415,6 +422,4 @@ hr{
     align-content: center;
   }
 }
-
-
 

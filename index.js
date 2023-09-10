@@ -1,4 +1,4 @@
-var checkbox = document.getElementById("ChangeTheme"); //get the checkbox to a variable
+var checkbox = document.getElementById("ChangeTheme");
 
 
 if (sessionStorage.getItem("mode") == "dark") {
